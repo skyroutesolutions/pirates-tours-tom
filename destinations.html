@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" class="light scroll-smooth" dir="ltr">
+    
+<!-- Mirrored from shreethemes.in/Pirates Tours Tom/layouts/list.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Jan 2025 16:51:08 GMT -->
+<head>
+        <meta charset="UTF-8">
+        <title>Pirates Tours Tom - Tour & Travels Agency</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta content="Tour & Travels Agency" name="description">
+        <meta content="Tour, Travels, agency, business, corporate, tour packages, journey, trip, tailwind css, Admin, Landing" name="keywords">
+        <meta name="author" content="Samarth Jain">
+        <meta name="email" content="samarthjain.work@gmail.com">
+        <meta name="version" content="1.0.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!-- favicon -->
+        <link rel="shortcut icon" href="assets/images/logo-transparent.png">
+
+        <!-- Css -->
+        <!-- Main Css -->
+        <link href="assets/libs/%40mdi/font/css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/tailwind.min.css" rel="stylesheet" type="text/css">
+
+    </head>
+    
+    <body class="dark:bg-slate-900">
+        <!-- Loader Start -->
+        <!-- <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Loader End -->
+        <!-- Start Navbar -->
+        <nav id="topnav" class="defaultscroll is-sticky">
+            <div class="container relative" style="display: flex; justify-content: space-between; align-items: center; padding-top: 20px; padding-bottom: 20px;">
+              <!-- Logo container-->
+              <a class="logo" href="index.html">
+                  <span class="inline-block dark:hidden">
+                      <img src="assets/images/logo-transparent.png" class="h-20 l-dark" alt="Glory O Travels">
+                      <img src="assets/images/logo-transparent.png" class="h-20 l-light" alt="Glory O Travels">
+                  </span>
+                  <img src="assets/images/logo-transparent.png" class="hidden h-20 dark:inline-block" alt="Glory O Travels">
+              </a>
+              <!-- End Logo container-->
+      
+              <!-- Start Mobile Toggle -->
+              <div class="menu-extras">
+                  <div class="menu-item">
+                      <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                          <div class="lines">
+                              <span></span>
+                              <span></span>
+                              <span></span>
+                          </div>
+                      </a>
+                  </div>
+              </div>
+              <!-- End Mobile Toggle -->
+      
+              <div id="navigation">
+                  <!-- Navigation Menu-->
+                  <ul class="navigation-menu justify-end nav-light">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="destinations.html">Destinations</a></li>
+                      
+                      <li class="has-submenu parent-menu-item">
+                          <a href="javascript:void(0)">Tour Packages</a><span class="menu-arrow"></span>
+                          <ul class="submenu">
+                              <li><a href="tour-package-detail.html?id=1" class="sub-menu-item">Nile Cruise</a></li>
+                              <li><a href="tour-package-detail.html?id=5" class="sub-menu-item">Beach Adventures</a></li>
+                              <li><a href="tour-packages.html" class="sub-menu-item flex">More <i data-feather="arrow-right" class="h-4 w-4 ms-1"></i></a></li>
+                          </ul>  
+                      </li>
+  
+                      <li><a href="services.html">Services</a></li>
+  
+                      <li class="has-submenu parent-menu-item">
+                          <a href="javascript:void(0)">About Us</a><span class="menu-arrow"></span>
+                          <ul class="submenu">
+                              <li><a href="gallery.html" class="sub-menu-item">Gallery</a></li>
+                              <li><a href="aboutus.html" class="sub-menu-item">About</a></li>
+                              <li><a href="blogs.html" class="sub-menu-item">Blogs</a></li>
+                          </ul>  
+                      </li>
+  
+                      <li><a href="contact.html">Contact</a></li>
+                  </ul><!--end navigation menu-->
+              </div><!--end navigation-->
+          </div><!--end container-->
+          </nav><!--end header-->
+        <!-- End Navbar -->
+        
+        <!-- Start Hero -->
+        <section style="background-image: url(assets/images/bg/1.png);" class="relative table w-full items-center py-36 bg-[url('../../assets/images/bg/cta.html')] bg-center bg-no-repeat bg-cover">
+            <div class="absolute inset-0 bg-gradient-to-b from-slate-900/60 via-slate-900/80 to-slate-900"></div>
+            <div class="container relative">
+                <div class="grid grid-cols-1 pb-8 text-center mt-10">
+                    <h3 class="text-4xl leading-normal tracking-wider font-semibold text-white">Destinations</h3>
+                </div><!--end grid-->
+            </div><!--end container-->
+            
+            <div class="absolute text-center z-10 bottom-5 start-0 end-0 mx-3">
+                <ul class="tracking-[0.5px] mb-0 inline-block">
+                    <li class="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><a href="index.html">Pirates Tours Tom</a></li>
+                    <li class="inline-block text-base text-white/50 mx-0.5 ltr:rotate-0 rtl:rotate-180"><i class="mdi mdi-chevron-right"></i></li>
+                    <li class="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white" aria-current="page">Destinations</li>
+                </ul>
+            </div>
+        </section><!--end section-->
+        <!-- End Hero -->
+
+        <!-- Start -->
+        <section class="relative md:py-24 py-16">
+            <div class="container relative">
+                <div id="destination-tiles" class="grid lg:grid-cols-2 grid-cols-1 gap-6"></div>
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End -->
+
+        <!-- Footer Start -->
+        <footer class="footer bg-dark-footer relative text-gray-200 dark:text-gray-200">    
+          <div class="container relative">
+              <div class="grid grid-cols-12">
+                  <div class="col-span-12">
+                      <div class="py-[60px] px-0">
+                          <div class="grid md:grid-cols-12 grid-cols-1 gap-6">
+                              <div class="lg:col-span-3 md:col-span-12">
+                                  <a href="#" class="text-[22px] focus:outline-none">
+                                      <img style="filter: drop-shadow(0px 0px 20px white);" src="assets/images/logo-transparent.png" width="200" alt="">
+                                  </a>
+                                  <p class="mt-6 text-gray-300">Planning for a trip? We will organize your trip with the best places and within best budget!</p>
+                                  <ul class="list-none mt-6">
+                                      <li class="inline"><a href="https://www.facebook.com/profile.php?id=100095437275635" target="_blank" class="size-8 inline-flex items-center justify-center tracking-wide align-middle text-base border border-gray-800 dark:border-slate-800 rounded-md hover:bg-red-500 hover:text-white text-slate-300"><i data-feather="facebook" class="size-4 align-middle" title="facebook"></i></a></li>
+                                      <li class="inline"><a href="https://www.instagram.com/piratestour/" target="_blank" class="size-8 inline-flex items-center justify-center tracking-wide align-middle text-base border border-gray-800 dark:border-slate-800 rounded-md hover:bg-red-500 hover:text-white text-slate-300"><i data-feather="instagram" class="size-4 align-middle" title="instagram"></i></a></li>
+                                      <li class="inline"><a href="mailto:assfshjs762628@gmail.com" class="size-8 inline-flex items-center justify-center tracking-wide align-middle text-base border border-gray-800 dark:border-slate-800 rounded-md hover:bg-red-500 hover:text-white text-slate-300"><i data-feather="mail" class="size-4 align-middle" title="email"></i></a></li>
+                                  </ul><!--end icon-->
+                              </div><!--end col-->
+
+                              <div class="lg:col-span-3 md:col-span-4">
+                                  <div class="lg:ms-8">
+                                      <h5 class="tracking-[1px] text-gray-100 font-semibold">Office</h5>
+                                      <h5 class="tracking-[1px] text-gray-100 mt-6">Pirates Tours Tom</h5>
+
+                                      <div class="flex mt-4">
+                                          <i style="color: #D29E63;" data-feather="map-pin" class="size-4 me-2 mt-1"></i>
+                                          <div class="">
+                                              <h6 class="text-gray-300">Hurghada, Egypt</h6>
+                                          </div>
+                                      </div>
+
+                                      <div class="flex mt-4">
+                                          <i style="color: #D29E63;" data-feather="mail" class="size-4 me-2 mt-1"></i>
+                                          <div class="">
+                                              <a href="mailto:contact@example.com" class="text-slate-300 hover:text-slate-400 duration-500 ease-in-out">assfshjs762628@gmail.com</a>
+                                          </div>
+                                      </div>
+                      
+                                      <div class="flex mt-4">
+                                          <i style="color: #D29E63;" data-feather="phone" class="size-4 me-2 mt-1"></i>
+                                          <div class="">
+                                              <a href="tel:(+2) 010-20758585" class="text-slate-300 hover:text-slate-400 duration-500 ease-in-out">(+2) 010-20758585</a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div><!--end col-->
+              
+                              <div class="lg:col-span-3 md:col-span-4">
+                                  <div class="lg:ms-8">
+                                      <h5 class="tracking-[1px] text-gray-100 font-semibold">Company</h5>
+                                      <ul class="list-none footer-list mt-6">
+                                          <li><a href="aboutus.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="mdi mdi-chevron-right"></i> About us</a></li>
+                                          <li class="mt-[10px]"><a href="services.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="mdi mdi-chevron-right"></i> Services</a></li>
+                                          <li class="mt-[10px]"><a href="destinations.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="mdi mdi-chevron-right"></i> Destinations</a></li>
+                                          <li class="mt-[10px]"><a href="tour-packages.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="mdi mdi-chevron-right"></i> Packages</a></li>
+                                          <li class="mt-[10px]"><a href="blogs.html" class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"><i class="mdi mdi-chevron-right"></i> Blog</a></li>
+                                      </ul>
+                                  </div>
+                              </div><!--end col-->
+  
+                              <div class="lg:col-span-3 md:col-span-4">
+                                  <h5 class="tracking-[1px] text-gray-100 font-semibold">Newsletter</h5>
+                                  <p class="mt-6">Sign up and receive the latest tips via email.</p>
+                                  <form>
+                                      <div class="grid grid-cols-1">
+                                          <div class="my-3">
+                                              <label class="form-label">Write your email <span class="text-red-600">*</span></label>
+                                              <div class="form-icon relative mt-2">
+                                                  <i data-feather="mail" class="size-4 absolute top-3 start-4"></i>
+                                                  <input type="email" class="ps-12 rounded w-full py-2 px-3 h-10 bg-gray-800 border-0 text-gray-100 focus:shadow-none focus:ring-0 placeholder:text-gray-200 outline-none" placeholder="Email" name="email" required="">
+                                              </div>
+                                          </div>
+                                      
+                                          <button type="submit" id="submitsubscribe" name="send" style="background-color: #D29E63;" class="py-2 px-5 inline-block font-semibold tracking-wide align-middle duration-500 text-base text-center text-white rounded-md">Subscribe</button>
+                                      </div>
+                                  </form>
+                              </div><!--end col-->
+                          </div><!--end grid-->
+                      </div><!--end col-->
+                  </div>
+              </div><!--end grid-->
+          </div><!--end container-->
+
+          <div class="py-[30px] px-0 border-t border-slate-800">
+              <div class="container relative text-center">
+                  <div class="grid grid-cols-1">
+                      <div class="text-center">
+                          <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> Pirates Tours Tom. Design with <i class="mdi mdi-heart text-red-600"></i> by <a href="https://shreethemes.in/" target="_blank" class="text-reset">SkyRoute Solutions</a>.</p>
+                      </div>
+                  </div><!--end grid-->
+              </div><!--end container-->
+          </div>
+      </footer><!--end footer-->
+        <!-- Footer End -->
+        <!-- Switcher -->
+        <!-- <div class="fixed top-1/4 -left-2 z-50">
+            <span class="relative inline-block rotate-90">
+                <input type="checkbox" class="checkbox opacity-0 absolute" id="chk">
+                <label class="label bg-slate-900 dark:bg-white shadow dark:shadow-gray-800 cursor-pointer rounded-full flex justify-between items-center p-1 w-14 h-8" for="chk">
+                    <i data-feather="moon" class="w-[18px] h-[18px] text-yellow-500"></i>
+                    <i data-feather="sun" class="w-[18px] h-[18px] text-yellow-500"></i>
+                    <span class="ball bg-white dark:bg-slate-900 rounded-full absolute top-[2px] left-[2px] w-7 h-7"></span>
+                </label>
+            </span>
+        </div> -->
+
+        <!-- <div class="fixed top-1/2 -right-11 z-50 hidden sm:block">
+            <a href="https://1.envato.market/Pirates Tours Tom" target="_blank" class="py-1 px-3 relative inline-block rounded-t-md -rotate-90 bg-white dark:bg-slate-900 shadow-md dark:shadow dark:shadow-gray-800 font-semibold"><i class="mdi mdi-cart-outline me-1"></i> Download</a>
+        </div> -->
+        <!-- Switcher -->
+
+        
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fixed hidden text-lg rounded-md z-10 bottom-5 end-5 size-8 text-center bg-red-500/10 hover:bg-red-500 text-red-500 hover:text-white justify-center items-center"><i class="mdi mdi-arrow-up"></i></a>
+        <!-- Back to top --> 
+
+        
+
+        <!-- JAVASCRIPTS -->
+        <script src="assets/libs/feather-icons/feather.min.js"></script>
+        <script src="assets/js/plugins.init.js"></script>
+        <script src="assets/js/app.js"></script>
+        <script src="assets/js/destinations.js"></script>
+        <!-- JAVASCRIPTS -->
+    </body>
+
+<!-- Mirrored from shreethemes.in/Pirates Tours Tom/layouts/list.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Jan 2025 16:51:08 GMT -->
+</html>
