@@ -1,4 +1,4 @@
-/* Template Name: Travosy - Tour & Travels Agency Tailwind CSS Template
+/* Template Name: Pirates Tours Tom - Tour & Travels Agency
    Author: Shreethemes
    Email: support@shreethemes.in
    Website: https://shreethemes.in
